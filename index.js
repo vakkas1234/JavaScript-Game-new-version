@@ -5,8 +5,7 @@ var p2 = document.getElementById("4")
 var button2 = document.getElementById("5")
 var a1 = document.getElementById("a1")
 var a2 = document.getElementById("a2")
-a1.style.visibility = "hidden"
-a2.style.visibility = "hidden"
+
 
 
 
@@ -16,6 +15,8 @@ const buttonwidth = 50
 const buttonheight = 50
 var button1 = document.getElementById("button1")
 function click1(){
+a1.style.visibility = "hidden"
+a2.style.visibility = "hidden"
 h1.style.visibility = "hidden"
 p2.style.visibility = "hidden"
     score++
