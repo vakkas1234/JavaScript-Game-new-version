@@ -3,6 +3,11 @@ var p1 = document.getElementById("1")
 var h1 = document.getElementById("3")
 var p2 = document.getElementById("4")
 var button2 = document.getElementById("5")
+var a1 = document.getElementById("a1")
+var a2 = document.getElementById("a2")
+a1.style.visibility = "hidden"
+a2.style.visibility = "hidden"
+
 
 
 const arewidth = 500
@@ -19,12 +24,7 @@ p2.style.visibility = "hidden"
     var y = Math.floor(Math.random() * (areheight  -buttonheight ))
     button1.style.left = x  + "px"
     button1.style.top = y + "px"
-    if(score >=10){
-        p1.innerHTML = "Enough. The Game finished."
-        button1.style.left = 0 + "px"
-        button1.style.top = 0 + "px"
-        
-    }
+   
 
 }
 button2.style.visibility = "visible"
